@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.egg-info
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Project Specific
+outputs/
+*.log
+app_icon.ico
+app_icon.png
+
+# System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets
+auth_config.json
+.env
+
+# Test Files
+test_*.py
+*_test.py
+
+# Temporary Files
+temp/
+tmp/
+*.tmp
+
+# Excel Lock Files
+~$*.xlsx
+~$*.xls
+
+# Statistics
+statistics.json

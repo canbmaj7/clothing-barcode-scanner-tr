@@ -1,0 +1,70 @@
+========================================
+  HIZLI BAŞLANGIÇ REHBERİ
+========================================
+
+📦 EXE OLUŞTURMA (TEK KOMUT)
+----------------------------
+> build_exe_fixed.bat
+
+✅ Bu yeni versiyonda:
+   • RuntimeError: lost sys.stdin DÜZELTILDI ✓
+   • ChromeDriver EXE'ye GÖMÜLÜ ✓
+   • Input hataları HALLEDİLDİ ✓
+   • İkon desteği VAR (isteğe bağlı) ✓
+
+========================================
+
+🎨 ÖZEL İKON EKLEMEK İSTİYORSAN
+-------------------------------
+1. ICON_GUIDE.txt dosyasını oku
+2. app_icon.ico oluştur
+3. build_exe_fixed.bat çalıştır
+
+========================================
+
+🚀 PYTHON İLE ÇALIŞTIRMA
+------------------------
+> python main.py
+
+🔐 ŞİFRE SİSTEMİ
+----------------
+• Program açılışta şifre sorar
+• Şifre girerken karakterler GÖZÜKMEZı (*** gibi)
+• 3 deneme hakkı var
+• Şifre Google Sheets'ten otomatik okunur (B4 hücresi)
+• Yanlış şifre → Program kapanır
+• Şifre: giyim123.
+
+========================================
+
+📁 EXE DOSYASI NEREDE?
+----------------------
+dist\GiyimBarkodArama.exe
+
+Bu dosyayı istediğin yere kopyalayabilirsin!
+ChromeDriver dahil, her şey içinde!
+
+========================================
+
+⚠️ ÖNEMLİ NOTLAR
+----------------
+✓ Chrome tarayıcısı güncel olmalı
+✓ İnternet bağlantısı gerekli
+✓ İlk çalıştırma yavaş olabilir
+✓ outputs/ klasörü otomatik oluşur
+
+========================================
+
+🆘 SORUN ÇÖZME
+--------------
+Hata: "Chrome tarayıcı bulunamadı"
+➜ Chrome'u yükle/güncelle
+
+Hata: "İnternet bağlantısı yok"
+➜ İnternet bağlantınızı kontrol edin
+
+Hata: "Excel dosyası açılamıyor"
+➜ Excel dosyasını kapat
+
+========================================
+

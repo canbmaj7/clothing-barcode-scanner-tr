@@ -1,0 +1,20 @@
+# Web Scraping ve HTTP İstekleri
+selenium>=4.0.0
+requests>=2.28.0
+beautifulsoup4>=4.11.0
+curl-cffi>=0.5.0
+
+# HTML Parsing (BeautifulSoup bağımlılığı)
+lxml>=4.9.0
+html5lib>=1.1
+
+# Excel İşlemleri
+xlsxwriter>=3.0.0
+openpyxl>=3.1.0
+
+# Renklendirme
+colorama>=0.4.6
+
+# İkon oluşturma
+pillow>=10.0.0
+
